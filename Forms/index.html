@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios em HTML</title>
+</head>
+<body>
+    <form action="murilo.ti32@outlook.com" method="get" style="border: solid 2px red;">
+        <label>Nome</label>       
+        <input type="text" name="Nome" size="20" maxlength="50"><br>
+        <label>Nº do cartão de crédito</label>       
+        <input type="text" name="nun_cartao" size="20" maxlength="16"><br>
+        <label>Senha</label>       
+        <input type="password"name="Nome" size="20" maxlength="16"><br>
+        <label>Selecione a bandeira do cartão de crédito:</label><br>
+        <hr>
+        <input type="radio" name="variavel" checked> Visa<br>
+        <input type="radio" name="variavel"> Mastercard<br>
+        <hr>
+        <label>Selecione o horário de entrega:</label> <br>
+        <input type="checkbox" name="variavel"> 08h as 12h <br>
+        <input type="checkbox" name="variavel"> 13h as 15h <br>
+        <input type="checkbox" name="variavel"> 16h as 18h <br>
+        <hr>
+        <p>Endereço: <input type="text"></p>
+        <p>Referência: <textarea name="ref" cols="30" rows="2"></textarea></p>
+        <button type="submit">Enviar</button>                
+        <button type="reset">Limpar</button>
+        <input type="hidden" name="cpf" value="verdadeiro">
+    </form>
+<br><br>
+    <form style="border: solid 2px blue;">
+        <h1>Exemplo de lista de opções</h1><br>
+        <h2>Escolha a cidade que deseja conhecer</h2>
+        <select name="Cidades" size="4">
+            <option>Londes</option>
+            <option>Paris</option>
+            <option>Roma</option>
+            <option>Madri</option>
+        </select>
+
+        <h1>Exemplo de lista com menu</h1>
+        <h2>Escolha a cidade que deseja conhecer</h2>
+        <select name="cidades">
+            <option>Manduri</option>
+            <option>Bernardino</option>
+            <option>Piraju</option>
+        </select>
+    </form>
+</body>
+</html>
